@@ -8,6 +8,7 @@
 
 #import "NSCMenuController.h"
 #import "NSCVariadicFunctionController.h"
+#import "NSCTaggedPointerController.h"
 
 @interface NSCMenuController ()
 
@@ -26,7 +27,9 @@
         case 0: // 可变参数
             controller = [[NSCVariadicFunctionController alloc] init];
             break;
-            
+        case 1: // Tagged Pointer
+            controller = [[NSCTaggedPointerController alloc] init];
+            break;
         default:
             break;
     }

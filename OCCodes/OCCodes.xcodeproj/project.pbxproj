@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F3A152C1D4E3CE200567B59 /* NSCTaggedPointerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A152A1D4E3CE200567B59 /* NSCTaggedPointerController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6F3A152D1D4E3CE200567B59 /* NSCTaggedPointerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F3A152B1D4E3CE200567B59 /* NSCTaggedPointerController.xib */; };
 		6F8A3EDD1D47E8A8008268BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A3EDC1D47E8A8008268BD /* main.m */; };
 		6F8A3EE01D47E8A8008268BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A3EDF1D47E8A8008268BD /* AppDelegate.m */; };
 		6F8A3EE61D47E8A8008268BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8A3EE41D47E8A8008268BD /* Main.storyboard */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F3A15291D4E3CE200567B59 /* NSCTaggedPointerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCTaggedPointerController.h; sourceTree = "<group>"; };
+		6F3A152A1D4E3CE200567B59 /* NSCTaggedPointerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCTaggedPointerController.m; sourceTree = "<group>"; };
+		6F3A152B1D4E3CE200567B59 /* NSCTaggedPointerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCTaggedPointerController.xib; sourceTree = "<group>"; };
 		6F8A3ED81D47E8A8008268BD /* OCCodes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCCodes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8A3EDC1D47E8A8008268BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F8A3EDE1D47E8A8008268BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,6 +104,9 @@
 				6F8A3EF61D47E8FA008268BD /* NSCVariadicFunctionController.h */,
 				6F8A3EF71D47E8FA008268BD /* NSCVariadicFunctionController.m */,
 				6F8A3EF81D47E8FA008268BD /* NSCVariadicFunctionController.xib */,
+				6F3A15291D4E3CE200567B59 /* NSCTaggedPointerController.h */,
+				6F3A152A1D4E3CE200567B59 /* NSCTaggedPointerController.m */,
+				6F3A152B1D4E3CE200567B59 /* NSCTaggedPointerController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -160,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F3A152D1D4E3CE200567B59 /* NSCTaggedPointerController.xib in Resources */,
 				6F8A3EEB1D47E8A8008268BD /* LaunchScreen.storyboard in Resources */,
 				6F8A3EFB1D47E8FA008268BD /* NSCVariadicFunctionController.xib in Resources */,
 				6F8A3EE81D47E8A8008268BD /* Assets.xcassets in Resources */,
@@ -178,6 +187,7 @@
 				6F8A3EE01D47E8A8008268BD /* AppDelegate.m in Sources */,
 				6F8A3EDD1D47E8A8008268BD /* main.m in Sources */,
 				6F8A3EFA1D47E8FA008268BD /* NSCVariadicFunctionController.m in Sources */,
+				6F3A152C1D4E3CE200567B59 /* NSCTaggedPointerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
