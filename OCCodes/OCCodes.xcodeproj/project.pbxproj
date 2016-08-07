@@ -17,6 +17,8 @@
 		6F8A3EF91D47E8FA008268BD /* NSCMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A3EF51D47E8FA008268BD /* NSCMenuController.m */; };
 		6F8A3EFA1D47E8FA008268BD /* NSCVariadicFunctionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A3EF71D47E8FA008268BD /* NSCVariadicFunctionController.m */; };
 		6F8A3EFB1D47E8FA008268BD /* NSCVariadicFunctionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8A3EF81D47E8FA008268BD /* NSCVariadicFunctionController.xib */; };
+		6FEFF6F41D57B8F600E8B77E /* NSCIsKindOfClsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFF6F21D57B8F600E8B77E /* NSCIsKindOfClsController.m */; };
+		6FEFF6F51D57B8F600E8B77E /* NSCIsKindOfClsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FEFF6F31D57B8F600E8B77E /* NSCIsKindOfClsController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,9 @@
 		6F8A3EF61D47E8FA008268BD /* NSCVariadicFunctionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCVariadicFunctionController.h; sourceTree = "<group>"; };
 		6F8A3EF71D47E8FA008268BD /* NSCVariadicFunctionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCVariadicFunctionController.m; sourceTree = "<group>"; };
 		6F8A3EF81D47E8FA008268BD /* NSCVariadicFunctionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCVariadicFunctionController.xib; sourceTree = "<group>"; };
+		6FEFF6F11D57B8F600E8B77E /* NSCIsKindOfClsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCIsKindOfClsController.h; sourceTree = "<group>"; };
+		6FEFF6F21D57B8F600E8B77E /* NSCIsKindOfClsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCIsKindOfClsController.m; sourceTree = "<group>"; };
+		6FEFF6F31D57B8F600E8B77E /* NSCIsKindOfClsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCIsKindOfClsController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,9 @@
 				6F3A15291D4E3CE200567B59 /* NSCTaggedPointerController.h */,
 				6F3A152A1D4E3CE200567B59 /* NSCTaggedPointerController.m */,
 				6F3A152B1D4E3CE200567B59 /* NSCTaggedPointerController.xib */,
+				6FEFF6F11D57B8F600E8B77E /* NSCIsKindOfClsController.h */,
+				6FEFF6F21D57B8F600E8B77E /* NSCIsKindOfClsController.m */,
+				6FEFF6F31D57B8F600E8B77E /* NSCIsKindOfClsController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -168,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FEFF6F51D57B8F600E8B77E /* NSCIsKindOfClsController.xib in Resources */,
 				6F3A152D1D4E3CE200567B59 /* NSCTaggedPointerController.xib in Resources */,
 				6F8A3EEB1D47E8A8008268BD /* LaunchScreen.storyboard in Resources */,
 				6F8A3EFB1D47E8FA008268BD /* NSCVariadicFunctionController.xib in Resources */,
@@ -183,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FEFF6F41D57B8F600E8B77E /* NSCIsKindOfClsController.m in Sources */,
 				6F8A3EF91D47E8FA008268BD /* NSCMenuController.m in Sources */,
 				6F8A3EE01D47E8A8008268BD /* AppDelegate.m in Sources */,
 				6F8A3EDD1D47E8A8008268BD /* main.m in Sources */,

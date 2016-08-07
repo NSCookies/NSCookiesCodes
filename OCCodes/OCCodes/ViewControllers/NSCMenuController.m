@@ -9,6 +9,7 @@
 #import "NSCMenuController.h"
 #import "NSCVariadicFunctionController.h"
 #import "NSCTaggedPointerController.h"
+#import "NSCIsKindOfClsController.h"
 
 @interface NSCMenuController ()
 
@@ -19,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBar.translucent = NO;
+    self.title = @"目录";
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -29,6 +31,9 @@
             break;
         case 1: // Tagged Pointer
             controller = [[NSCTaggedPointerController alloc] init];
+            break;
+        case 2:
+            controller = [[NSCIsKindOfClsController alloc] init];
             break;
         default:
             break;
