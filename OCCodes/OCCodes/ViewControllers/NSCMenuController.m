@@ -10,6 +10,8 @@
 #import "NSCVariadicFunctionController.h"
 #import "NSCTaggedPointerController.h"
 #import "NSCIsKindOfClsController.h"
+#import "NSCIsaSwizzlingController.h"
+#import "NSCMethodSwizzlingController.h"
 
 @interface NSCMenuController ()
 
@@ -32,8 +34,11 @@
         case 1: // Tagged Pointer
             controller = [[NSCTaggedPointerController alloc] init];
             break;
-        case 2:
+        case 2: // 历史冤案之isKindOfClass与isMemberOfClass
             controller = [[NSCIsKindOfClsController alloc] init];
+            break;
+        case 3: // 黑魔法之Method Swizzling
+            controller = [[NSCMethodSwizzlingController alloc] init];
             break;
         default:
             break;

@@ -17,6 +17,10 @@
 		6F8A3EF91D47E8FA008268BD /* NSCMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A3EF51D47E8FA008268BD /* NSCMenuController.m */; };
 		6F8A3EFA1D47E8FA008268BD /* NSCVariadicFunctionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A3EF71D47E8FA008268BD /* NSCVariadicFunctionController.m */; };
 		6F8A3EFB1D47E8FA008268BD /* NSCVariadicFunctionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8A3EF81D47E8FA008268BD /* NSCVariadicFunctionController.xib */; };
+		6FC091281D60A8B300D52879 /* NSCIsaSwizzlingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC091261D60A8B300D52879 /* NSCIsaSwizzlingController.m */; };
+		6FC091291D60A8B300D52879 /* NSCIsaSwizzlingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC091271D60A8B300D52879 /* NSCIsaSwizzlingController.xib */; };
+		6FC091371D60CB5E00D52879 /* NSCMethodSwizzlingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC091351D60CB5E00D52879 /* NSCMethodSwizzlingController.m */; };
+		6FC091381D60CB5E00D52879 /* NSCMethodSwizzlingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC091361D60CB5E00D52879 /* NSCMethodSwizzlingController.xib */; };
 		6FEFF6F41D57B8F600E8B77E /* NSCIsKindOfClsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFF6F21D57B8F600E8B77E /* NSCIsKindOfClsController.m */; };
 		6FEFF6F51D57B8F600E8B77E /* NSCIsKindOfClsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FEFF6F31D57B8F600E8B77E /* NSCIsKindOfClsController.xib */; };
 /* End PBXBuildFile section */
@@ -38,6 +42,12 @@
 		6F8A3EF61D47E8FA008268BD /* NSCVariadicFunctionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCVariadicFunctionController.h; sourceTree = "<group>"; };
 		6F8A3EF71D47E8FA008268BD /* NSCVariadicFunctionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCVariadicFunctionController.m; sourceTree = "<group>"; };
 		6F8A3EF81D47E8FA008268BD /* NSCVariadicFunctionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCVariadicFunctionController.xib; sourceTree = "<group>"; };
+		6FC091251D60A8B300D52879 /* NSCIsaSwizzlingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCIsaSwizzlingController.h; sourceTree = "<group>"; };
+		6FC091261D60A8B300D52879 /* NSCIsaSwizzlingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCIsaSwizzlingController.m; sourceTree = "<group>"; };
+		6FC091271D60A8B300D52879 /* NSCIsaSwizzlingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCIsaSwizzlingController.xib; sourceTree = "<group>"; };
+		6FC091341D60CB5E00D52879 /* NSCMethodSwizzlingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCMethodSwizzlingController.h; sourceTree = "<group>"; };
+		6FC091351D60CB5E00D52879 /* NSCMethodSwizzlingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCMethodSwizzlingController.m; sourceTree = "<group>"; };
+		6FC091361D60CB5E00D52879 /* NSCMethodSwizzlingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCMethodSwizzlingController.xib; sourceTree = "<group>"; };
 		6FEFF6F11D57B8F600E8B77E /* NSCIsKindOfClsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCIsKindOfClsController.h; sourceTree = "<group>"; };
 		6FEFF6F21D57B8F600E8B77E /* NSCIsKindOfClsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCIsKindOfClsController.m; sourceTree = "<group>"; };
 		6FEFF6F31D57B8F600E8B77E /* NSCIsKindOfClsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCIsKindOfClsController.xib; sourceTree = "<group>"; };
@@ -115,6 +125,12 @@
 				6FEFF6F11D57B8F600E8B77E /* NSCIsKindOfClsController.h */,
 				6FEFF6F21D57B8F600E8B77E /* NSCIsKindOfClsController.m */,
 				6FEFF6F31D57B8F600E8B77E /* NSCIsKindOfClsController.xib */,
+				6FC091251D60A8B300D52879 /* NSCIsaSwizzlingController.h */,
+				6FC091261D60A8B300D52879 /* NSCIsaSwizzlingController.m */,
+				6FC091271D60A8B300D52879 /* NSCIsaSwizzlingController.xib */,
+				6FC091341D60CB5E00D52879 /* NSCMethodSwizzlingController.h */,
+				6FC091351D60CB5E00D52879 /* NSCMethodSwizzlingController.m */,
+				6FC091361D60CB5E00D52879 /* NSCMethodSwizzlingController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -177,10 +193,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FEFF6F51D57B8F600E8B77E /* NSCIsKindOfClsController.xib in Resources */,
+				6FC091291D60A8B300D52879 /* NSCIsaSwizzlingController.xib in Resources */,
 				6F3A152D1D4E3CE200567B59 /* NSCTaggedPointerController.xib in Resources */,
 				6F8A3EEB1D47E8A8008268BD /* LaunchScreen.storyboard in Resources */,
 				6F8A3EFB1D47E8FA008268BD /* NSCVariadicFunctionController.xib in Resources */,
 				6F8A3EE81D47E8A8008268BD /* Assets.xcassets in Resources */,
+				6FC091381D60CB5E00D52879 /* NSCMethodSwizzlingController.xib in Resources */,
 				6F8A3EE61D47E8A8008268BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,7 +213,9 @@
 				6FEFF6F41D57B8F600E8B77E /* NSCIsKindOfClsController.m in Sources */,
 				6F8A3EF91D47E8FA008268BD /* NSCMenuController.m in Sources */,
 				6F8A3EE01D47E8A8008268BD /* AppDelegate.m in Sources */,
+				6FC091371D60CB5E00D52879 /* NSCMethodSwizzlingController.m in Sources */,
 				6F8A3EDD1D47E8A8008268BD /* main.m in Sources */,
+				6FC091281D60A8B300D52879 /* NSCIsaSwizzlingController.m in Sources */,
 				6F8A3EFA1D47E8FA008268BD /* NSCVariadicFunctionController.m in Sources */,
 				6F3A152C1D4E3CE200567B59 /* NSCTaggedPointerController.m in Sources */,
 			);
