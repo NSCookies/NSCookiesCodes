@@ -40,6 +40,9 @@
         case 3: // 黑魔法之Method Swizzling
             controller = [[NSCMethodSwizzlingController alloc] init];
             break;
+        case 4: // isa-swizzling?什么鬼？
+            controller = [[NSCIsaSwizzlingController alloc] init];
+            break;
         default:
             break;
     }
