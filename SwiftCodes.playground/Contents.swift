@@ -36,4 +36,48 @@ let date4 = NSDate(timeIntervalSinceNow: 10)
 let pointFormatStr7 = NSString(format: "tagged point :%p", date3)
 let pointFormatStr8 = NSString(format: "tagged point :%p", date4)
 
+// MARK: 字面量(Literal)
+let aString = "World"
+let aNumber = 6
+let aBool = false
+let arr = ["Hello", "World"]
+let dic = ["key1": "value1", "key2": "value2"]
 
+// Swift 字面量转换协议
+class NSCPerson : StringLiteralConvertible {
+    let name: String
+    
+    init(withName name: String) {
+        self.name = name
+    }
+    
+    required convenience init(stringLiteral value: String) {
+        self.init(withName:value)
+    }
+    
+    required convenience init(unicodeScalarLiteral value: String) {
+        self.init(withName:value)
+    }
+    
+    required convenience init(extendedGraphemeClusterLiteral value: String) {
+        self.init(withName:value)
+    }
+    
+}
+
+let person: NSCPerson = "NSCookies"
+print("person.name:\(person.name)")
+
+extension NSURL : StringLiteralConvertible {
+    required init(stringLiteral value: String) {
+        NSURL(string: value)
+    }
+    
+    required init(unicodeScalarLiteral value: String) {
+        NSURL(string: value)
+    }
+    
+    required init(extendedGraphemeClusterLiteral value: String) {
+        NSURL(string: value)
+    }
+}
