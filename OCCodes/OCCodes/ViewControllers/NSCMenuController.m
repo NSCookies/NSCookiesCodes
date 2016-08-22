@@ -12,6 +12,7 @@
 #import "NSCIsKindOfClsController.h"
 #import "NSCIsaSwizzlingController.h"
 #import "NSCMethodSwizzlingController.h"
+#import "NSCLiteralController.h"
 
 @interface NSCMenuController ()
 
@@ -42,6 +43,9 @@
             break;
         case 4: // isa-swizzling?什么鬼？
             controller = [[NSCIsaSwizzlingController alloc] init];
+            break;
+        case 5:
+            controller = [[NSCLiteralController alloc] init];
             break;
         default:
             break;
