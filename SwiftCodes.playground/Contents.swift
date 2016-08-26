@@ -67,17 +67,3 @@ class NSCPerson : StringLiteralConvertible {
 
 let person: NSCPerson = "NSCookies"
 print("person.name:\(person.name)")
-
-extension NSURL : StringLiteralConvertible {
-    required init(stringLiteral value: String) {
-        NSURL(string: value)
-    }
-    
-    required init(unicodeScalarLiteral value: String) {
-        NSURL(string: value)
-    }
-    
-    required init(extendedGraphemeClusterLiteral value: String) {
-        NSURL(string: value)
-    }
-}

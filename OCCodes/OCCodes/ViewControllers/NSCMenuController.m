@@ -13,6 +13,7 @@
 #import "NSCIsaSwizzlingController.h"
 #import "NSCMethodSwizzlingController.h"
 #import "NSCLiteralController.h"
+#import "NSCPragmaController.h"
 
 @interface NSCMenuController ()
 
@@ -44,8 +45,11 @@
         case 4: // isa-swizzling?什么鬼？
             controller = [[NSCIsaSwizzlingController alloc] init];
             break;
-        case 5:
+        case 5: // 字面量(Literal)
             controller = [[NSCLiteralController alloc] init];
+            break;
+        case 6: // #pragma与 // MARK:
+            controller = [[NSCPragmaController alloc] init];
             break;
         default:
             break;
