@@ -19,6 +19,8 @@
 		6F8A3EFB1D47E8FA008268BD /* NSCVariadicFunctionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8A3EF81D47E8FA008268BD /* NSCVariadicFunctionController.xib */; };
 		6FA439EE1D6B357200FE5D9F /* NSCLiteralController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA439EC1D6B357200FE5D9F /* NSCLiteralController.m */; };
 		6FA439EF1D6B357200FE5D9F /* NSCLiteralController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FA439ED1D6B357200FE5D9F /* NSCLiteralController.xib */; };
+		6FBC674D1D74CD100016CB30 /* NSCMethodChainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBC674B1D74CD100016CB30 /* NSCMethodChainController.m */; };
+		6FBC674E1D74CD100016CB30 /* NSCMethodChainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FBC674C1D74CD100016CB30 /* NSCMethodChainController.xib */; };
 		6FC091281D60A8B300D52879 /* NSCIsaSwizzlingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC091261D60A8B300D52879 /* NSCIsaSwizzlingController.m */; };
 		6FC091291D60A8B300D52879 /* NSCIsaSwizzlingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC091271D60A8B300D52879 /* NSCIsaSwizzlingController.xib */; };
 		6FC091371D60CB5E00D52879 /* NSCMethodSwizzlingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC091351D60CB5E00D52879 /* NSCMethodSwizzlingController.m */; };
@@ -49,6 +51,9 @@
 		6FA439EB1D6B357200FE5D9F /* NSCLiteralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCLiteralController.h; sourceTree = "<group>"; };
 		6FA439EC1D6B357200FE5D9F /* NSCLiteralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCLiteralController.m; sourceTree = "<group>"; };
 		6FA439ED1D6B357200FE5D9F /* NSCLiteralController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCLiteralController.xib; sourceTree = "<group>"; };
+		6FBC674A1D74CD100016CB30 /* NSCMethodChainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCMethodChainController.h; sourceTree = "<group>"; };
+		6FBC674B1D74CD100016CB30 /* NSCMethodChainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCMethodChainController.m; sourceTree = "<group>"; };
+		6FBC674C1D74CD100016CB30 /* NSCMethodChainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCMethodChainController.xib; sourceTree = "<group>"; };
 		6FC091251D60A8B300D52879 /* NSCIsaSwizzlingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCIsaSwizzlingController.h; sourceTree = "<group>"; };
 		6FC091261D60A8B300D52879 /* NSCIsaSwizzlingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCIsaSwizzlingController.m; sourceTree = "<group>"; };
 		6FC091271D60A8B300D52879 /* NSCIsaSwizzlingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCIsaSwizzlingController.xib; sourceTree = "<group>"; };
@@ -147,6 +152,9 @@
 				6FF5EAAF1D704C40000D275E /* NSCPragmaController.h */,
 				6FF5EAB01D704C40000D275E /* NSCPragmaController.m */,
 				6FF5EAB11D704C40000D275E /* NSCPragmaController.xib */,
+				6FBC674A1D74CD100016CB30 /* NSCMethodChainController.h */,
+				6FBC674B1D74CD100016CB30 /* NSCMethodChainController.m */,
+				6FBC674C1D74CD100016CB30 /* NSCMethodChainController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -211,6 +219,7 @@
 				6FF5EAB31D704C40000D275E /* NSCPragmaController.xib in Resources */,
 				6FEFF6F51D57B8F600E8B77E /* NSCIsKindOfClsController.xib in Resources */,
 				6FA439EF1D6B357200FE5D9F /* NSCLiteralController.xib in Resources */,
+				6FBC674E1D74CD100016CB30 /* NSCMethodChainController.xib in Resources */,
 				6FC091291D60A8B300D52879 /* NSCIsaSwizzlingController.xib in Resources */,
 				6F3A152D1D4E3CE200567B59 /* NSCTaggedPointerController.xib in Resources */,
 				6F8A3EEB1D47E8A8008268BD /* LaunchScreen.storyboard in Resources */,
@@ -233,6 +242,7 @@
 				6F8A3EE01D47E8A8008268BD /* AppDelegate.m in Sources */,
 				6FC091371D60CB5E00D52879 /* NSCMethodSwizzlingController.m in Sources */,
 				6FF5EAB21D704C40000D275E /* NSCPragmaController.m in Sources */,
+				6FBC674D1D74CD100016CB30 /* NSCMethodChainController.m in Sources */,
 				6FA439EE1D6B357200FE5D9F /* NSCLiteralController.m in Sources */,
 				6F8A3EDD1D47E8A8008268BD /* main.m in Sources */,
 				6FC091281D60A8B300D52879 /* NSCIsaSwizzlingController.m in Sources */,

@@ -14,6 +14,7 @@
 #import "NSCMethodSwizzlingController.h"
 #import "NSCLiteralController.h"
 #import "NSCPragmaController.h"
+#import "NSCMethodChainController.h"
 
 @interface NSCMenuController ()
 
@@ -50,6 +51,9 @@
             break;
         case 6: // #pragma与 // MARK:
             controller = [[NSCPragmaController alloc] init];
+            break;
+        case 7:
+            controller = [[NSCMethodChainController alloc] init];
             break;
         default:
             break;
