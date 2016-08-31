@@ -67,3 +67,19 @@ class NSCPerson : StringLiteralConvertible {
 
 let person: NSCPerson = "NSCookies"
 print("person.name:\(person.name)")
+
+// MARK: 链式编程(Method chaining)
+struct NSCStudent {
+    func study() -> NSCStudent {
+        print("The student study")
+        return self
+    }
+    
+    func playWith(name: String) -> NSCStudent {
+        print("The student play with \(name)")
+        return self
+    }
+}
+
+let student = NSCStudent()
+student.study().playWith("Girl")
