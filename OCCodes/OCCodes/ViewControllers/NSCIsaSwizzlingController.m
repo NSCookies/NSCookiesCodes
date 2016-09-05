@@ -56,14 +56,17 @@ static void const *PrivateKVOContext;
     [person addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew context:&PrivateKVOContext];
     NSLog(@"After add observer--------------------------------------------------------------------------");
     [person printInfo];
-    [person removeObserver:self forKeyPath:@"age"];
-    NSLog(@"After remove observer--------------------------------------------------------------------------");
-    [person printInfo];
     
     [person addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew context:&PrivateKVOContext];
     NSLog(@"After add observer--------------------------------------------------------------------------");
     [person printInfo];
+    [person removeObserver:self forKeyPath:@"name"];
     [person removeObserver:self forKeyPath:@"age"];
+    NSLog(@"After remove observer--------------------------------------------------------------------------");
+    [person printInfo];
+    [person removeObserver:self forKeyPath:@"age"];
+    person.age = 123;
+//    [person removeObserver:self forKeyPath:@"age"];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context

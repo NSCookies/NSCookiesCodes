@@ -15,6 +15,7 @@
 #import "NSCLiteralController.h"
 #import "NSCPragmaController.h"
 #import "NSCMethodChainController.h"
+#import "NSCEnumController.h"
 
 @interface NSCMenuController ()
 
@@ -54,6 +55,9 @@
             break;
         case 7:
             controller = [[NSCMethodChainController alloc] init];
+            break;
+        case 8:
+            controller = [[NSCEnumController alloc] init];
             break;
         default:
             break;

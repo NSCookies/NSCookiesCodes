@@ -83,3 +83,34 @@ struct NSCStudent {
 
 let student = NSCStudent()
 student.study().playWith("Girl")
+
+// MARK: 枚举（Enum）
+
+// Swift 1.2 RawOptionSetType
+//struct <# Options #> : RawOptionSetType, BooleanType {
+//    let rawValue: UInt
+//    init(nilLiteral: ()) { self.value = 0 }
+//    init(_ value: UInt = 0) { self.value = value }
+//    init(rawValue value: UInt) { self.value = value }
+//    var boolValue: Bool { return value != 0 }
+//    var rawValue: UInt { return value }
+//    static var allZeros: <# Options #> { return self(0) }
+//    
+//    static var None: <# Options #>         { return self(0b0000) }
+//    static var <# Option #>: <# Options #>     { return self(0b0001) }
+//    // ...
+//}
+
+// Swift 2.2 OptionSetType
+struct NSCOptions : OptionSetType {
+    let rawValue: UInt
+    static let None = NSCOptions(rawValue: 0)
+    static let Value1 = NSCOptions(rawValue: 0b0001)
+    static let Value2 = NSCOptions(rawValue: 0b0010)
+    static let Value3 = NSCOptions(rawValue: 0b0100)
+    static let Value4 = NSCOptions(rawValue: 0b1000)
+}
+
+
+
+

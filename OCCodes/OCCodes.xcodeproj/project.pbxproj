@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6F3A152C1D4E3CE200567B59 /* NSCTaggedPointerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A152A1D4E3CE200567B59 /* NSCTaggedPointerController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6F3A152D1D4E3CE200567B59 /* NSCTaggedPointerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F3A152B1D4E3CE200567B59 /* NSCTaggedPointerController.xib */; };
+		6F743ADE1D7D337B00C94967 /* NSCEnumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F743ADC1D7D337B00C94967 /* NSCEnumController.m */; };
+		6F743ADF1D7D337B00C94967 /* NSCEnumController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F743ADD1D7D337B00C94967 /* NSCEnumController.xib */; };
 		6F8A3EDD1D47E8A8008268BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A3EDC1D47E8A8008268BD /* main.m */; };
 		6F8A3EE01D47E8A8008268BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A3EDF1D47E8A8008268BD /* AppDelegate.m */; };
 		6F8A3EE61D47E8A8008268BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8A3EE41D47E8A8008268BD /* Main.storyboard */; };
@@ -35,6 +37,9 @@
 		6F3A15291D4E3CE200567B59 /* NSCTaggedPointerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCTaggedPointerController.h; sourceTree = "<group>"; };
 		6F3A152A1D4E3CE200567B59 /* NSCTaggedPointerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCTaggedPointerController.m; sourceTree = "<group>"; };
 		6F3A152B1D4E3CE200567B59 /* NSCTaggedPointerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCTaggedPointerController.xib; sourceTree = "<group>"; };
+		6F743ADB1D7D337B00C94967 /* NSCEnumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCEnumController.h; sourceTree = "<group>"; };
+		6F743ADC1D7D337B00C94967 /* NSCEnumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCEnumController.m; sourceTree = "<group>"; };
+		6F743ADD1D7D337B00C94967 /* NSCEnumController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCEnumController.xib; sourceTree = "<group>"; };
 		6F8A3ED81D47E8A8008268BD /* OCCodes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCCodes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8A3EDC1D47E8A8008268BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F8A3EDE1D47E8A8008268BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -155,6 +160,9 @@
 				6FBC674A1D74CD100016CB30 /* NSCMethodChainController.h */,
 				6FBC674B1D74CD100016CB30 /* NSCMethodChainController.m */,
 				6FBC674C1D74CD100016CB30 /* NSCMethodChainController.xib */,
+				6F743ADB1D7D337B00C94967 /* NSCEnumController.h */,
+				6F743ADC1D7D337B00C94967 /* NSCEnumController.m */,
+				6F743ADD1D7D337B00C94967 /* NSCEnumController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -227,6 +235,7 @@
 				6F8A3EE81D47E8A8008268BD /* Assets.xcassets in Resources */,
 				6FC091381D60CB5E00D52879 /* NSCMethodSwizzlingController.xib in Resources */,
 				6F8A3EE61D47E8A8008268BD /* Main.storyboard in Resources */,
+				6F743ADF1D7D337B00C94967 /* NSCEnumController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +257,7 @@
 				6FC091281D60A8B300D52879 /* NSCIsaSwizzlingController.m in Sources */,
 				6F8A3EFA1D47E8FA008268BD /* NSCVariadicFunctionController.m in Sources */,
 				6F3A152C1D4E3CE200567B59 /* NSCTaggedPointerController.m in Sources */,
+				6F743ADE1D7D337B00C94967 /* NSCEnumController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
