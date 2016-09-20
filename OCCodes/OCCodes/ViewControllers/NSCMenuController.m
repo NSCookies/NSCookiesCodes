@@ -16,6 +16,7 @@
 #import "NSCPragmaController.h"
 #import "NSCMethodChainController.h"
 #import "NSCEnumController.h"
+#import "NSCClassClustersController.h"
 
 @interface NSCMenuController ()
 
@@ -53,11 +54,14 @@
         case 6: // #pragma与 // MARK:
             controller = [[NSCPragmaController alloc] init];
             break;
-        case 7:
+        case 7: // 链式编程(Method chaining)
             controller = [[NSCMethodChainController alloc] init];
             break;
-        case 8:
+        case 8: // 枚举（Enum）
             controller = [[NSCEnumController alloc] init];
+            break;
+        case 9: // 类簇(Class Clusters)
+            controller = [[NSCClassClustersController alloc] init];
             break;
         default:
             break;

@@ -29,6 +29,8 @@
 		6FC091381D60CB5E00D52879 /* NSCMethodSwizzlingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC091361D60CB5E00D52879 /* NSCMethodSwizzlingController.xib */; };
 		6FEFF6F41D57B8F600E8B77E /* NSCIsKindOfClsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFF6F21D57B8F600E8B77E /* NSCIsKindOfClsController.m */; };
 		6FEFF6F51D57B8F600E8B77E /* NSCIsKindOfClsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FEFF6F31D57B8F600E8B77E /* NSCIsKindOfClsController.xib */; };
+		6FF570AB1D913441007AA7A6 /* NSCClassClustersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF570A91D913441007AA7A6 /* NSCClassClustersController.m */; };
+		6FF570AC1D913441007AA7A6 /* NSCClassClustersController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FF570AA1D913441007AA7A6 /* NSCClassClustersController.xib */; };
 		6FF5EAB21D704C40000D275E /* NSCPragmaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5EAB01D704C40000D275E /* NSCPragmaController.m */; };
 		6FF5EAB31D704C40000D275E /* NSCPragmaController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FF5EAB11D704C40000D275E /* NSCPragmaController.xib */; };
 /* End PBXBuildFile section */
@@ -68,6 +70,9 @@
 		6FEFF6F11D57B8F600E8B77E /* NSCIsKindOfClsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCIsKindOfClsController.h; sourceTree = "<group>"; };
 		6FEFF6F21D57B8F600E8B77E /* NSCIsKindOfClsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCIsKindOfClsController.m; sourceTree = "<group>"; };
 		6FEFF6F31D57B8F600E8B77E /* NSCIsKindOfClsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCIsKindOfClsController.xib; sourceTree = "<group>"; };
+		6FF570A81D913441007AA7A6 /* NSCClassClustersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCClassClustersController.h; sourceTree = "<group>"; };
+		6FF570A91D913441007AA7A6 /* NSCClassClustersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCClassClustersController.m; sourceTree = "<group>"; };
+		6FF570AA1D913441007AA7A6 /* NSCClassClustersController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCClassClustersController.xib; sourceTree = "<group>"; };
 		6FF5EAAF1D704C40000D275E /* NSCPragmaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCPragmaController.h; sourceTree = "<group>"; };
 		6FF5EAB01D704C40000D275E /* NSCPragmaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCPragmaController.m; sourceTree = "<group>"; };
 		6FF5EAB11D704C40000D275E /* NSCPragmaController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCPragmaController.xib; sourceTree = "<group>"; };
@@ -163,6 +168,9 @@
 				6F743ADB1D7D337B00C94967 /* NSCEnumController.h */,
 				6F743ADC1D7D337B00C94967 /* NSCEnumController.m */,
 				6F743ADD1D7D337B00C94967 /* NSCEnumController.xib */,
+				6FF570A81D913441007AA7A6 /* NSCClassClustersController.h */,
+				6FF570A91D913441007AA7A6 /* NSCClassClustersController.m */,
+				6FF570AA1D913441007AA7A6 /* NSCClassClustersController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -227,6 +235,7 @@
 				6FF5EAB31D704C40000D275E /* NSCPragmaController.xib in Resources */,
 				6FEFF6F51D57B8F600E8B77E /* NSCIsKindOfClsController.xib in Resources */,
 				6FA439EF1D6B357200FE5D9F /* NSCLiteralController.xib in Resources */,
+				6FF570AC1D913441007AA7A6 /* NSCClassClustersController.xib in Resources */,
 				6FBC674E1D74CD100016CB30 /* NSCMethodChainController.xib in Resources */,
 				6FC091291D60A8B300D52879 /* NSCIsaSwizzlingController.xib in Resources */,
 				6F3A152D1D4E3CE200567B59 /* NSCTaggedPointerController.xib in Resources */,
@@ -252,6 +261,7 @@
 				6FC091371D60CB5E00D52879 /* NSCMethodSwizzlingController.m in Sources */,
 				6FF5EAB21D704C40000D275E /* NSCPragmaController.m in Sources */,
 				6FBC674D1D74CD100016CB30 /* NSCMethodChainController.m in Sources */,
+				6FF570AB1D913441007AA7A6 /* NSCClassClustersController.m in Sources */,
 				6FA439EE1D6B357200FE5D9F /* NSCLiteralController.m in Sources */,
 				6F8A3EDD1D47E8A8008268BD /* main.m in Sources */,
 				6FC091281D60A8B300D52879 /* NSCIsaSwizzlingController.m in Sources */,
