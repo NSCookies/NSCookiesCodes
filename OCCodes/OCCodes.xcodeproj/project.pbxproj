@@ -27,6 +27,8 @@
 		6FC091291D60A8B300D52879 /* NSCIsaSwizzlingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC091271D60A8B300D52879 /* NSCIsaSwizzlingController.xib */; };
 		6FC091371D60CB5E00D52879 /* NSCMethodSwizzlingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC091351D60CB5E00D52879 /* NSCMethodSwizzlingController.m */; };
 		6FC091381D60CB5E00D52879 /* NSCMethodSwizzlingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC091361D60CB5E00D52879 /* NSCMethodSwizzlingController.xib */; };
+		6FEDC5F11D98723C001DFD99 /* NSCPrivateInitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDC5EF1D98723C001DFD99 /* NSCPrivateInitController.m */; };
+		6FEDC5F21D98723C001DFD99 /* NSCPrivateInitController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FEDC5F01D98723C001DFD99 /* NSCPrivateInitController.xib */; };
 		6FEFF6F41D57B8F600E8B77E /* NSCIsKindOfClsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFF6F21D57B8F600E8B77E /* NSCIsKindOfClsController.m */; };
 		6FEFF6F51D57B8F600E8B77E /* NSCIsKindOfClsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FEFF6F31D57B8F600E8B77E /* NSCIsKindOfClsController.xib */; };
 		6FF570AB1D913441007AA7A6 /* NSCClassClustersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF570A91D913441007AA7A6 /* NSCClassClustersController.m */; };
@@ -67,6 +69,9 @@
 		6FC091341D60CB5E00D52879 /* NSCMethodSwizzlingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCMethodSwizzlingController.h; sourceTree = "<group>"; };
 		6FC091351D60CB5E00D52879 /* NSCMethodSwizzlingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCMethodSwizzlingController.m; sourceTree = "<group>"; };
 		6FC091361D60CB5E00D52879 /* NSCMethodSwizzlingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCMethodSwizzlingController.xib; sourceTree = "<group>"; };
+		6FEDC5EE1D98723C001DFD99 /* NSCPrivateInitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCPrivateInitController.h; sourceTree = "<group>"; };
+		6FEDC5EF1D98723C001DFD99 /* NSCPrivateInitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCPrivateInitController.m; sourceTree = "<group>"; };
+		6FEDC5F01D98723C001DFD99 /* NSCPrivateInitController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCPrivateInitController.xib; sourceTree = "<group>"; };
 		6FEFF6F11D57B8F600E8B77E /* NSCIsKindOfClsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCIsKindOfClsController.h; sourceTree = "<group>"; };
 		6FEFF6F21D57B8F600E8B77E /* NSCIsKindOfClsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCIsKindOfClsController.m; sourceTree = "<group>"; };
 		6FEFF6F31D57B8F600E8B77E /* NSCIsKindOfClsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCIsKindOfClsController.xib; sourceTree = "<group>"; };
@@ -171,6 +176,9 @@
 				6FF570A81D913441007AA7A6 /* NSCClassClustersController.h */,
 				6FF570A91D913441007AA7A6 /* NSCClassClustersController.m */,
 				6FF570AA1D913441007AA7A6 /* NSCClassClustersController.xib */,
+				6FEDC5EE1D98723C001DFD99 /* NSCPrivateInitController.h */,
+				6FEDC5EF1D98723C001DFD99 /* NSCPrivateInitController.m */,
+				6FEDC5F01D98723C001DFD99 /* NSCPrivateInitController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -244,6 +252,7 @@
 				6F8A3EE81D47E8A8008268BD /* Assets.xcassets in Resources */,
 				6FC091381D60CB5E00D52879 /* NSCMethodSwizzlingController.xib in Resources */,
 				6F8A3EE61D47E8A8008268BD /* Main.storyboard in Resources */,
+				6FEDC5F21D98723C001DFD99 /* NSCPrivateInitController.xib in Resources */,
 				6F743ADF1D7D337B00C94967 /* NSCEnumController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +266,7 @@
 			files = (
 				6FEFF6F41D57B8F600E8B77E /* NSCIsKindOfClsController.m in Sources */,
 				6F8A3EF91D47E8FA008268BD /* NSCMenuController.m in Sources */,
+				6FEDC5F11D98723C001DFD99 /* NSCPrivateInitController.m in Sources */,
 				6F8A3EE01D47E8A8008268BD /* AppDelegate.m in Sources */,
 				6FC091371D60CB5E00D52879 /* NSCMethodSwizzlingController.m in Sources */,
 				6FF5EAB21D704C40000D275E /* NSCPragmaController.m in Sources */,

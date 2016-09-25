@@ -17,6 +17,7 @@
 #import "NSCMethodChainController.h"
 #import "NSCEnumController.h"
 #import "NSCClassClustersController.h"
+#import "NSCPrivateInitController.h"
 
 @interface NSCMenuController ()
 
@@ -62,6 +63,9 @@
             break;
         case 9: // 类簇(Class Clusters)
             controller = [[NSCClassClustersController alloc] init];
+            break;
+        case 10: // 代表月亮私有你
+            controller = [[NSCPrivateInitController alloc] init];
             break;
         default:
             break;
