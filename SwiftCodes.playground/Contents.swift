@@ -3,7 +3,7 @@
 import Foundation
 
 // MARK: 可变参数
-func sumAllValues(nums: Float...) -> Float {
+func sumAllValues(_ nums: Float...) -> Float {
     var sum: Float = 0.0
     for num in nums {
         sum += num
@@ -15,14 +15,14 @@ sumAllValues(5.0, 4.0, 5.0, 3.3)
 
 
 // MARK: Tagged Pointer
-let num1 = NSNumber(long: 0xffff)
-let num2 = NSNumber(long: 0xffff)
+let num1 = NSNumber(value: 0xffff)
+let num2 = NSNumber(value: 0xffff)
 let pointFormatStr1 = NSString(format: "tagged point :%p", num1)
 let pointFormatStr2 = NSString(format: "tagged point :%p", num2)
 
 
-let num3 = NSNumber(float: Float(M_PI))
-let num4 = NSNumber(float: Float(M_PI))
+let num3 = NSNumber(value: Float(M_PI))
+let num4 = NSNumber(value: Float(M_PI))
 let pointFormatStr3 = NSString(format: "tagged point :%p", num3)
 let pointFormatStr4 = NSString(format: "tagged point :%p", num4)
 
@@ -75,7 +75,7 @@ struct NSCStudent {
         return self
     }
     
-    func playWith(name: String) -> NSCStudent {
+    func playWith(_ name: String) -> NSCStudent {
         print("The student play with \(name)")
         return self
     }
@@ -102,7 +102,7 @@ student.study().playWith("Girl")
 //}
 
 // Swift 2.2 OptionSetType
-struct NSCOptions : OptionSetType {
+struct NSCOptions : OptionSet {
     let rawValue: UInt
     static let None = NSCOptions(rawValue: 0)
     static let Value1 = NSCOptions(rawValue: 0b0001)
@@ -112,5 +112,63 @@ struct NSCOptions : OptionSetType {
 }
 
 
+// MARK: 
 
+// Swift 2
+infix operator || {
+associativity: left
+precedence: 140
+}
+
+func ||<T>(left: T, right: T) -> T? {
+    return nil
+}
+
+// Swift 3
+//precedencegroup OrGroup {
+//    associativity: left
+//    higherThan: AdditionPrecedence
+//    lowerThan: MultiplicationPrecedence
+//}
+//
+//infix operator ||: OrGroup
+//
+//func ||<T>(left: T, right: T) -> T {
+//    // do something
+//}
+
+// MARK :伪三元操作符
+
+precedencegroup QuesGroup {
+    associativity: left
+}
+
+infix operator ???: QuesGroup
+
+precedencegroup OrGroup {
+    associativity: left
+    higherThan: QuesGroup
+}
+
+infix operator |||: OrGroup
+
+func |||<T>(left: @autoclosure @escaping () -> T, right: @autoclosure @escaping () -> T) -> (Bool) -> T {
+    return { condition in
+        if condition {
+            return left()
+        } else {
+            return right()
+        }
+    }
+}
+
+func ???<T>(condition: @autoclosure @escaping () -> Bool, value: (Bool) -> T) -> T {
+    return value(condition())
+}
+
+let bTrue = true
+let bFalse = false
+
+bTrue ??? "true value" ||| "false value"
+bFalse ??? "true value" ||| "false value"
 
